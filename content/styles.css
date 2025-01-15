@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+h2, h3, h4, h5, a, p {
+    color: seashell;
+    font-family: Helvetica;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-link {
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto 75px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/img-mission-background.jpg);
+}
+
+.mission-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: black;
+}
+
+.tom {
+    margin: 0 auto 75px auto;
+    width: 1000px;
+}
+
+.tom-text {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.card-img {
+    width: 300px;
+    height: 200px;
+}
+
+.card, h4 {
+    margin-top: 10px;
+}
+
+.locations {
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/content/images/img-locations-background.jpg);
+}
+
+.loc-title {
+    margin-bottom: 15px;
+}
+
+.container-loc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.card-loc {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+}
+
+footer div {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    text-align: left;
+    margin: 0 0 20px 20px;
+}
+
+
+
+
+
